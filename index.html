@@ -325,7 +325,18 @@
                 gap: 14px;
             }
         }
-        
+        .map-container {
+    max-width: 1000px;
+    margin: 35px auto 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+}
     </style>
 </head>
 
@@ -387,6 +398,18 @@
                         </svg>
                     </a>
                 </div>
+                
+<div class="map-container">
+                <iframe
+                    src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.3415699563047!2d-39.75418432411786!3d-18.738273982397985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xca1375b221b7f7%3A0x51d0ccc14fb742c7!2sGurizon%20Material%20De%20Constru%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1792168161292!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização da Gurizon Material de Construção">
+                </iframe>
             </div>
         </section>
 
